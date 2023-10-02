@@ -1,9 +1,11 @@
 public abstract class Actor implements ActorBehavior{
 
     protected String name;
-    protected boolean isMakeOrder;
-    protected boolean isTakeOrder;
+    protected String ticketNumber;
 
+    protected boolean isMakeOrder;
+
+    protected boolean isTakeOrder;
     public Actor(String name) {
         this.name = name;
     }
@@ -12,6 +14,14 @@ public abstract class Actor implements ActorBehavior{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getTicketNumber() {
+        return ticketNumber;
+    }
+
+    public void setTicketNumber(String ticketNumber) {
+        this.ticketNumber = ticketNumber;
     }
 
     @Override
