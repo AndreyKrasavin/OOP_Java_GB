@@ -1,3 +1,6 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
 public class Human extends Actor{
 
     public Human(String name) {
@@ -27,4 +30,7 @@ public class Human extends Actor{
     public boolean isTakeOrder() {
         return super.isTakeOrder;
     }
+
+
+
 }
