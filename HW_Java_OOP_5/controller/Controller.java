@@ -36,12 +36,5 @@ public class Controller {
     public void createStudentGroup(){
         studentGroupService.createStudentGroup(dataService.getTeacher(),dataService.getAllStudent());
     }
-//      дз на семинаре и на сайте отличается
-//    public List<Integer> getStudentsIdListInStudentsGroup(){
-//        return studentGroupService.getStudentIdInStudentsGroup();
-//    }
-//
-//    public int getTeacherIdInStudentsGroup(){
-//        return studentGroupService.getTeacherIdInStudentsGroup();
-//    }
+
 }
