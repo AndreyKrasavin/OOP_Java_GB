@@ -7,9 +7,6 @@ public class Main {
         System.out.println("Hello world!");
         Lottery lottery = new Lottery();
         initToys(lottery);
-        //TODO добавить количество игрушек
-
-//        start(lottery);
 
 
         boolean continueLoop = true;
